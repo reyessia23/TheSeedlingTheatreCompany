@@ -1,0 +1,231 @@
+@charset "utf-8";
+
+/*
+.days-one-regular {
+  font-family: "Days One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+*/
+
+/* COLORS
+darkgreen
+yellow #D9B504
+beige #E1DCBA
+*/
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+
+body {
+	background-image: url(AdobeStock_293709629.jpeg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+
+
+}
+
+
+h1 {
+	font-family: "Days One", sans-serif;
+}
+
+
+.logo img {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.navbar-nav {
+	background-color: darkgreen;
+	font-family: "Poppins", sans-serif;
+	font-size: 25px;
+	justify-content: space-between;
+
+}
+
+
+.navbar-text,
+.nav-link,
+.nav-link.active {
+	color: white !important;
+}
+
+
+.mainimage img {
+ 	display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+position: relative;
+	
+}
+.EnrollToday {
+	position: relative;
+	text-align: center;
+	padding-top: 20px;
+	color: darkgreen;
+	
+}
+
+
+.col {
+	position: relative;
+	display: flex;
+	font-family: "Poppins", sans-serif;
+	font-size: 25px;	
+
+	
+}
+
+
+
+.subheadlineuno {
+	background-color: darkgreen;
+	padding: 7px;
+	display: inline-flex;
+	color: white;
+	margin: 20px;
+	margin-left: 80px;
+}
+
+.reviews {
+	background-color: #D9B504;
+	display: inline-flex;
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 80px;
+	margin-bottom: 80px;
+	font-family: "Poppins", sans-serif;
+	
+	
+	
+	
+}
+.container2 {
+
+	padding-top: 15px;
+	column-count: 2;
+	margin-left: 80px;
+	margin-right: 80px;
+	font-family: "Poppins", sans-serif;
+	font-size: 25px;
+	
+}
+	
+
+.container{
+	background-color: #E1DCBA;
+	padding-top: 15px;
+	display: wrap;
+	position: relative;
+	
+}
+
+
+
+.row {
+	display: wrap;
+	flex-direction: row;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.bodyinfo {
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	padding: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	column-count: 3;
+	
+}
+.container3 {
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+.btn {
+	background-color: darkgreen;
+	color: white;
+}
+
+.btn:hover {
+  background-color: #04AA6D; /* Green */
+  color: white;
+}
+
+.container8 {
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+	margin-bottom: 20px;
+	
+	
+}
+
+.maps {
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+}
+
+.maincontact {
+	display: flex;
+	justify-content: center;
+	background: #E1DCBA; 
+	height: auto;
+	width: 500px;
+	margin: auto;
+	margin-top: 20px;
+
+}
+
+.container9 {
+	font-family: "Poppins", sans-serif;
+	font-size: 19px;
+}
+.classeslist {
+	display: flex;
+	justify-content: center;
+	margin-left: 200px;
+	margin-right: 200PX;
+	
+}
+
+
+.footerinside {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: darkgreen;
+	color: white;
+	height: 150px;
+	margin-top: 20px;
+}
+
+.footerinside a i{
+	font-size: 2em;
+	color:white;
+	margin: 10px;
+	border-radius: 50%;
+	
+}
