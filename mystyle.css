@@ -163,6 +163,12 @@ position: relative;
 	margin-top: 60px;
 	margin-bottom: 20px;
 }
+
+.thirdsubheadline {
+	background-color: #D9B504;
+}
+
+
 .btn {
 	background-color: darkgreen;
 	color: white;
