@@ -203,12 +203,12 @@ position: relative;
 	font-family: "Poppins", sans-serif;
 	font-size: 19px;
 }
-.classeslist {
+.flex-container {
 	display: flex;
-	justify-content: center;
+  flex-direction: column;
 	margin-left: 200px;
-	margin-right: 200PX;
-	
+	margin-right: 200px;
+	margin-bottom: 40px;
 }
 
 
