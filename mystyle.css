@@ -203,6 +203,10 @@ position: relative;
 	font-family: "Poppins", sans-serif;
 	font-size: 19px;
 }
+
+.featurette-divider {
+    margin: 5rem 0;
+}
 .flex-container {
 	display: flex;
        flex-direction: column;
